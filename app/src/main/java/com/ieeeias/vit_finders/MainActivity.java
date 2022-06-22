@@ -107,8 +107,8 @@ public class MainActivity extends AppCompatActivity {
 
             //System.out.println(result);
 
-            //Boolean bool=result .contains("@vitstudent.ac.in");
-            //if(bool) {
+            //Boolean boolean =result .contains("@vitstudent.ac.in");
+            //if(boolean) {
 
                 //System.out.println(result);
 
