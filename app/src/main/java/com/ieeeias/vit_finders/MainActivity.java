@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
             GoogleSignInAccount account = completedTask.getResult(ApiException.class);
             GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
             Toast.makeText(MainActivity.this, "Signin Successfull", Toast.LENGTH_LONG).show();
+
             //String result= account.toString();
 
             //System.out.println(result);
@@ -129,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (ApiException e){
                 // The ApiException status code indicates the detailed failure reason.
                 // Please refer to the GoogleSignInStatusCodes class reference for more information.
-                Log.w(TAG, "signInResult:failed code=" + e.getStatusCode());
+                Log.e(TAG, "signInResult:failed code=" + e.getStatusCode());
 
 
         }
